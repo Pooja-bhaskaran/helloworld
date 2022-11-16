@@ -1,4 +1,7 @@
 <div>
-  <h1>{{ this.title }}</h1>
+  <h1>Hello {{ this.userName }} from BridgeLabz!</h1>
   <img [src]="imgUrl" (click)="onClick($event)" alt="The Bridgelabz logo " />
+</div>
+<div>
+  <input [(ngModel)]="userName" placeholder="enter you name"/> <br/><br/>
 </div>
